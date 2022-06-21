@@ -1,6 +1,6 @@
 //to run test : npm test --SumofCubes.test.js
 
-const { SumofCubes } = require('./SumofCubes');
+const SumofCubes = require('./SumofCubes');
 
 test('test1', () => {
     expect(SumofCubes([1, 5, 9])).toStrictEqual(855)
