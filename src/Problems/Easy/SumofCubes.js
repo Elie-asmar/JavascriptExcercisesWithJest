@@ -13,6 +13,6 @@ const SumofCubes = (arr) => {
     return 1;
 }
 
-exports.x = SumofCubes;
-module.exports.SumofCubes = SumofCubes;
+
+module.exports = SumofCubes;
 
